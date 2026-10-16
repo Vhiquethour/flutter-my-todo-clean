@@ -9,10 +9,17 @@ This project is a starting point for a Flutter application with exemplary struct
 ## Structure
 
 lib/
+
 --main.dart                  entry point
+
 --app.dart                   MaterialApp and theme wiring
+
 --core/theme/                colours and theme
+
 --models/task.dart           immutable Task model
+
 --controllers/               TaskController (state and rules)
+
 --screens/home_screen.dart   main screen
+
 --widgets/                   TaskTile, add-task dialog
