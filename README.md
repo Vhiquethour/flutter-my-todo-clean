@@ -4,14 +4,22 @@ A simple Flutter to-do app with swipe-to-delete, an add-task dialog and a clean,
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application with exemplary structure and clean architecture.
 
-A few resources to get you started if this is your first Flutter project:
+## Structure
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+lib/
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+--main.dart                  entry point
+
+--app.dart                   MaterialApp and theme wiring
+
+--core/theme/                colours and theme
+
+--models/task.dart           immutable Task model
+
+--controllers/               TaskController (state and rules)
+
+--screens/home_screen.dart   main screen
+
+--widgets/                   TaskTile, add-task dialog
